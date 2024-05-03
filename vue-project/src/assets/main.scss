@@ -1,6 +1,7 @@
 $deleteColor : red;
 $border: 1px solid #e5e5e5;
 
+// Styling for rendered user list
 .user{
     border-top: $border;
     cursor: pointer;
@@ -14,6 +15,7 @@ $border: 1px solid #e5e5e5;
     padding: 0;
     margin: 0;
 }
+// Styling for delete buttons
 .delete{
     margin-left: 1px; 
     cursor: pointer; 
@@ -27,12 +29,18 @@ $border: 1px solid #e5e5e5;
     background-color: $deleteColor;
     color: white;
 }
-
-li{
-    list-style-type: none;
-}
-
+// Styling for filter bar/search input
 .filter-bar{
     margin: 20px;
     text-align: center;
+}
+input{
+	justify-content: space-around;
+	border: $border;
+	padding: 4px;
+    margin: 5px;
+    border-radius: 4px;
+}
+li{
+    list-style-type: none;
 }
