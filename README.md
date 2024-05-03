@@ -1,7 +1,7 @@
 # RampHealth
 frontend code challenge
 
-###Instructions:
+### Instructions:
 Using Vue-CLI to create a SPA app (whatever version of Vue)
 Generate some sample data (you dont need to create an API), that is loaded into the Vue component
 SPA Page that:
