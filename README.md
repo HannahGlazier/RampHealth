@@ -11,3 +11,6 @@ Lists users
 - Delete button that will “delete” the record (doesnt need to delete the source data JSON, just to demonstrate reactivity on the page, so removing the data row from the Vue data state)
 - Uses at least one child component in your design
 - Uses a simple base CSS reset, then custom SASS, to apply some basic styling, doesnt have to be anything special, just not using Bootstrap or Tailwind to provide some basic styling.
+
+  
+![page-screenshot](https://github.com/HannahGlazier/RampHealth/assets/94475586/c9697774-b89e-4027-b540-28a6414159ee)
