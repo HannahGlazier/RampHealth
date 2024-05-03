@@ -1,0 +1,38 @@
+$deleteColor : red;
+$border: 1px solid #e5e5e5;
+
+.user{
+    border-top: $border;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.1rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 1px; 
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.delete{
+    margin-left: 1px; 
+    cursor: pointer; 
+    background-color: transparent;
+    border: none;
+    float: right;
+    border-top: $border;
+    transition-duration: 0.4s;
+}
+.delete:hover{
+    background-color: $deleteColor;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
+.filter-bar{
+    margin: 20px;
+    text-align: center;
+}
